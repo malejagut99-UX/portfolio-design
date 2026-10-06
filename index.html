@@ -528,6 +528,11 @@ img.blogo{background:none;-webkit-mask:none;mask:none;aspect-ratio:auto;height:v
 .hero{min-height:clamp(420px,46vw,680px)}
 @media (max-width:760px){.hero{padding-bottom:230px;min-height:0}.hero .s2{width:176px;top:auto;bottom:24px;right:16px}}
 @media (max-width:760px){.hero .s1{display:none}}
+/* Logo giratorio de vuelta a la mitad */
+.hero .s2{width:clamp(88px,17vw,240px);top:calc(50% - clamp(44px,8.5vw,120px) + 24px);right:6%}
+.hero .s1{width:30vw;max-width:460px;right:6%;top:14%}
+.hero{min-height:0}
+@media (max-width:760px){.hero{padding-bottom:140px}.hero .s2{width:88px;top:auto;bottom:24px;right:16px}}
 </style>
 </head>
 <body>
