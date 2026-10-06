@@ -520,6 +520,14 @@ img.blogo{background:none;-webkit-mask:none;mask:none;aspect-ratio:auto;height:v
 .top .nlogo .nname{color:#2F5BE0}
 .nlogo{margin-right:clamp(28px,6vw,88px)}
 @media (max-width:760px){.nlogo{margin-right:10px}}
+/* Círculo con contorno azul en el encabezado, como el aro del logo */
+.hero .s1{background:transparent;clip-path:none;border-radius:50%;aspect-ratio:1;border:1.5px solid #2F5BE0;mix-blend-mode:normal}
+/* Logo giratorio al doble */
+.hero .s2{width:clamp(176px,34vw,480px);top:calc(50% - clamp(88px,17vw,240px) + 28px);right:5%}
+.hero .s1{width:46vw;max-width:660px;right:-2%;top:6%}
+.hero{min-height:clamp(420px,46vw,680px)}
+@media (max-width:760px){.hero{padding-bottom:230px;min-height:0}.hero .s2{width:176px;top:auto;bottom:24px;right:16px}}
+@media (max-width:760px){.hero .s1{display:none}}
 </style>
 </head>
 <body>
